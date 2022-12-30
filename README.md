@@ -1,18 +1,27 @@
 # Runelite-Chat-Filter-RegEx
-RegeEx for the Runelite chat filter plugin to filter spam and things that annoy me.
+RegeEx for the Runelite Chat Filter plugin to filter spam and things that annoy me.
 
-This combines what I have found in a few Reddit posts as well as what I've added over time. Some of the older stuff (higher in the list) has not been is in a different format than what I use, but it works so I don't really see a need to fix it.
+This combines what I have found in a few Reddit posts as well as what I've added over time. Some of the older stuff (higher in the list) is in a different format than what I use, but it works so I don't really see a need to fix it.
 
 
 ## How to use
-* Copy and paste the below text into the "Chat Filter" plugin in the "Filtered Regex" box
-* If you don't want the annoyances, just copy what's under the "Spam" section
+1. Set "Filter type" to "Remove Message"
+2. Check the box for "Strip accents"
+3. Copy and paste the below text into the appropriate boxes. If you don't care about the "annoyances", just copy what's under the "##Spam##" section
 
+### Filtered Names
 ```
-# Annoyances
+^(vegas|raise|gamble|rng|roll|trusted) \d{3,}$
+^veg .{3,5}
+^Frost .{3,5}
+```
+
+### Filtered Regex
+```
+##Annoyances##
 ^.*Joel.*Skype.*
 
-# Spam
+##Spam##
 (\bdiscord.gg\/summit\b)
 (\bare hacked\b)
 (\bTGS779\b)
