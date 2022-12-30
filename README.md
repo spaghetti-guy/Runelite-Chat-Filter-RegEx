@@ -1,10 +1,13 @@
-# Runelite-Chat-Filter-RegEx
-RegeEx for the Runelite Chat Filter plugin to filter spam and things that annoy me.
+# Runelite Chat Filter RegEx
+Regular expressions for the Runelite Chat Filter plugin to filter spam and things that annoy me.
 
-This combines what I have found in a few Reddit posts as well as what I've added over time. Some of the older stuff (higher in the list) is in a different format than what I use, but it works so I don't really see a need to fix it.
+This combines what I have found in a few Reddit posts as well as what I've personally added over time. Some entries are in a different format than what I use, but they work so I don't really see a need to fix it. This list will never be perfect, but it will remove the majority of spam/scam messages.
 
+## To do
+* Categorize entries
+* Reduce redundancies
 
-## How to use
+# How to use
 1. Set "Filter type" to "Remove Message"
 2. Check the box for "Strip accents"
 3. Copy and paste the below text into the appropriate boxes. If you don't care about the "annoyances", just copy what's under the "##Spam##" section
@@ -14,6 +17,7 @@ This combines what I have found in a few Reddit posts as well as what I've added
 ^(vegas|raise|gamble|rng|roll|trusted) \d{3,}$
 ^veg .{3,5}
 ^Frost .{3,5}
+Casino
 ```
 
 ### Filtered Regex
@@ -178,7 +182,7 @@ twitch.+giveaway.+drop part
 not safe on pvp.+you never get the sceptre
 scammer on hacked account
 cc dabs
-^.*buy(ing)* (sanguinesti staff|dragon hunter lance|kodai wand|ancestral set|arcane spirit shield|dragon hunter crossbow|dragon claws|dragon warhammer|armadyl set and dhcb|scythe of vitur|inquisitor) \d*m+.*!+.*
+^.*buy(ing)? (sanguinesti staff|dragon hunter lance|kodai wand|ancestral set|arcane spirit shield|dragon hunter crossbow|dragon claws|dragon warhammer|armadyl set and dhcb|scythe of vitur|inquisitor|ancient? hilt?) \d+m.*
 ^.*over ge price!.*
 buying all valuable items
 ^.*.*t bow.*\?+ sell me for.*
@@ -195,11 +199,8 @@ quitting giveaway
 ^\[Private\] has.*
 ^.* has cashed in:
 ^.*D\u2014.*
-^.*P.A.I.D.*
+^.*P\.A\.I\.D\.*
 ^.*P—A—I—D.*
-P.A.I.D
-^.*—.*
-^.*\u2014.*
 Hide your name from game
 ^*players.*search Youtube.*
 Need a Infernal Cape?
@@ -215,8 +216,19 @@ Need a Infernal Cape?
 ^.*has Lost slots \(.*
 ^.*opened the mystery box and received a bonus \d.*
 ^.* has been paid:.*
-^.* won \d.*with (.*)
+^.*has paid.*\[\d+(m|k|b)\]
+^.*(won|lost) \d+(m|k|b) with a roll.*
+^.*winner.*\[\d+(m|k|b)\].*
 ^.*cape.C0.*
 ^.*\[B.w.r.\].*f.th.s.*sc.mm.rs.*
 ^.*\[.+\].*ppl.*sc.m.*
-```
+^.*\[.*payouts?\].*
+^.*Massive? Payouts.*
+^.*Huge Winnings.*
+^.*\[(lost|won)\].*
+^.*Show me over \d+m.*
+^.*(multiply|double|triple) your gold.*
+^.* \| trading:
+^.*scam tactics are old.*
+^.*plz+ help me report.*
+^.*keep the reports coming.*
