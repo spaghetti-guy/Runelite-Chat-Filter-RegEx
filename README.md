@@ -182,12 +182,12 @@ twitch.+giveaway.+drop part
 not safe on pvp.+you never get the sceptre
 scammer on hacked account
 cc dabs
-^.*buy(ing)? (sanguinesti staff|dragon hunter lance|kodai wand|ancestral set|arcane spirit shield|dragon hunter crossbow|dragon claws|dragon warhammer|armadyl set and dhcb|scythe of vitur|inquisitor|ancient? hilt?) \d+m.*
+^.*(buy(ing)?|sell me) (sanguinesti staff|dragon hunter lance|kodai wand|ancestral set|arcane spirit shield|dragon hunter crossbow|dhcb|dragon claws|dragon warhammer|armadyl set and dhcb|armadyl set|scythe of vitur|inquisitor|ancient? hilt?) \d+m.*
 ^.*over ge price!.*
 buying all valuable items
-^.*.*t bow.*\?+ sell me for.*
-sell me your all ((\bbank\b)|(\bvaluable items\b))
-.*is a (well)*.*(known)* lurer.*
+^.*t ?bow.*\?+ sell me for.*
+^.*sell me all( your)? (bank|valuable items)
+^.*is a (well)*.*(known)* lurer.*
 \[.*\] is a (well)*.*(known)* lurer.*
 mainrentals
 caw games
