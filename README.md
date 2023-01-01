@@ -24,6 +24,8 @@ Casino
 ```
 ##Annoyances##
 ^.*Joel.*Skype.*
+^.*mr br?e+a+s+t.*
+^.*just tried to do something very silly!
 
 ##Spam##
 (\bdiscord.gg\/summit\b)
