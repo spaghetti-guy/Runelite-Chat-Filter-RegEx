@@ -17,6 +17,7 @@ This combines what I have found in a few Reddit posts as well as what I've perso
 ^(vegas|raise|gamble|rng|roll|trusted) \d{3,}$
 ^veg .{3,5}
 ^Frost .{3,5}
+^Dice .{3,5}
 Casino
 ```
 
@@ -25,11 +26,11 @@ Casino
 ##Annoyances##
 ^.*Joel.*Skype.*
 ^.*mr br?e+a+s+t.*
+^.*br?e+a+s+t burger.*
 ^.*just tried to do something very silly!
 
 ##Spam##
 (\bdiscord.gg\/summit\b)
-(\bare hacked\b)
 (\bTGS779\b)
 (\bbarzo\b)
 (\b.*rd\.gg\/stam.*\b)
@@ -85,7 +86,6 @@ has (won|lost)( \d+[km]!?)? with a roll of
 runechat.gg
 ^.*do?ub+ling? (all )?(coin|gp|money|gold|item)[sz]? *!* *$
 my m[iíl1]n[iíl1]m[uüú]m and max[iíl1]m[uüú]m bet [iíl1]s between
-^.*original (dice )?host
 has received their winnin?gs of:
 t bet on fakes! \|
  \|\| huge payouts!
@@ -184,13 +184,14 @@ twitch.+giveaway.+drop part
 not safe on pvp.+you never get the sceptre
 scammer on hacked account
 cc dabs
-^.*(buy(ing)?|sell me) (sanguinesti staff|dragon hunter lance|kodai wand|ancestral set|arcane spirit shield|dragon hunter crossbow|dhcb|dragon claws|dragon warhammer|armadyl set and dhcb|armadyl set|scythe of vitur|inquisitor|ancient? hilt?) \d+m.*
+^.*(buy(ing)?|sell me( all)?) (sanguinesti staff|dragon hunter lance|kodai wand|ancestral set|arcane spirit shield|dragon hunter crossbow|dhcb|dragon claws|dragon warhammer|armadyl set and dhcb|armadyl set|scythe of vitur|inquisitor|ancient? hilt?|arcane and ancestral set) (\d+m.*|good offer!*|no joke.*)
+^.*lo+l i pay \d+m for.*
 ^.*over ge price!.*
-buying all valuable items
+^.*buying all valuable items.*
 ^.*t ?bow.*\?+ sell me for.*
-^.*sell me all( your)? (bank|valuable items)
-^.*is a (well)*.*(known)* lurer.*
-\[.*\] is a (well)*.*(known)* lurer.*
+^.*sell(s)? me all( your)? (bank|valuable items).*
+^.*is a (well)?.*(known)? lurer.*
+\[.*\] is a (well)?.*(known)? lurer.*
 mainrentals
 caw games
 to swap your RS3
@@ -208,7 +209,7 @@ Hide your name from game
 Need a Infernal Cape?
 ^Do not trust \[.*
 ^Doubling your money \d+m
-^Who'll give me \dm knowing.*
+^Who'll give me \d+m knowing.*
 ^.*07.*drop party tonight.*
 ^.*gpstall.*
 ^.*g.*i.*v.*e.*a.*w.*a.*y.*tube.*
@@ -234,3 +235,8 @@ Need a Infernal Cape?
 ^.*scam tactics are old.*
 ^.*plz+ help me report.*
 ^.*keep the reports coming.*
+^.*first to give me \d+m.*
+^.*open dicing host.*
+^.*\[high ?55\].*
+^.*selly? my bank for \d+m
+^.*first to give me \d+m.*
