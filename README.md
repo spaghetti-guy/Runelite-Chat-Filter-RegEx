@@ -28,6 +28,7 @@ Casino
 ^.*mr br?e+a+s+t.*
 ^.*br?e+a+s+t burger.*
 ^.*just tried to do something very silly!
+^.*(trump|biden) \d{2,5}.*
 
 ##Spam##
 (\bdiscord.gg\/summit\b)
