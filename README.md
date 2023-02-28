@@ -61,6 +61,7 @@ scammer on hacked account
 ^.*scam tactics are old.*
 ^.*plz+ help me report.*
 ^.*keep the reports coming.*
+^.*this scammer.*using a fake.*bot
 
 ##Begging##
 ^.*(does )?any[ -]?(one|body)( (in )?here)? (have|got) *(a|some)?( full)? rune *(armou?r *)?(se?t)?( for me( to (have|keep))?)?\?* *$
@@ -71,6 +72,7 @@ scammer on hacked account
 ^.*take?ing a(ll|ny) (junk|item)
 ^.*clean out your banks! *$
 ^.*first to give me \d+m.*
+^.*can anyone donate \d*.*
 
 ##Scams##
 ^.*spending 2147m.*
@@ -229,5 +231,7 @@ Hide your name from game
 ^.*\[high ?55\].*
 ^.*!v(erify)? automation
 ^.*this proves it'?s automated.*
+^.*\[.*c.*r.*a.*w.*s.*\].*
+^.*sad I got sniped on the other world.*
 
 ##Unsorted##
