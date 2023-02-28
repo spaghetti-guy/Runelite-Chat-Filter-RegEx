@@ -4,13 +4,12 @@ Regular expressions for the Runelite Chat Filter plugin to filter spam and thing
 This combines what I have found in a few Reddit posts as well as what I've personally added over time. Some entries are in a different format than what I use, but they work so I don't really see a need to fix it. This list will never be perfect, but it will remove the majority of spam/scam messages.
 
 ## To do
-* Categorize entries
 * Reduce redundancies
 
 # How to use
 1. Set "Filter type" to "Remove Message"
 2. Check the box for "Strip accents"
-3. Copy and paste the below text into the appropriate boxes. If you don't care about the "annoyances", just copy what's under the "##Spam##" section
+3. Copy and paste the below text into the appropriate boxes. If you don't care about the "annoyances", don't copy that section.
 
 ### Filtered Names
 ```
