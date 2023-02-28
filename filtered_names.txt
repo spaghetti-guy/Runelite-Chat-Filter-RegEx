@@ -1,5 +1,3 @@
-^(vegas|raise|gamble|rng|roll|trusted) \d{3,}$
-^veg .{3,5}
-^Frost .{3,5}
-^Dice .{3,5}
+(coin|royal|vegas|veg|raise|gamble|rng|roll|trusted|frost|dice|host) .{3,4}
+.{3,4} (coin|royal|vegas|veg|raise|gamble|rng|roll|trusted|frost|dice|host).*
 Casino
