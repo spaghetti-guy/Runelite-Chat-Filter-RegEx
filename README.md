@@ -49,7 +49,7 @@ lee swap
 ^.*add '[\w\-_ ]+' *to ignore, (he will try to gain ur trust w/|tries gaining trust with) fake antiscam! *$
 ^.*beware (of )*fake antiscams, if it's too good to be true; then it is! *$
 ^.*lurers to ignore\:
-\] *are hacked accounts to scam!* *$
+^.*\].*are hacked accounts to scam!* *$
 ^.*do n\.?o\.?t search for (keyword )?giveaways on youtub
 not safe on pvp.+you never get the sceptre
 scammer on hacked account
@@ -62,6 +62,8 @@ scammer on hacked account
 ^.*plz+ help me report.*
 ^.*keep the reports coming.*
 ^.*this scammer.*using a fake.*bot
+^\[.+\] is manipulating you to.*
+^\[.+\] convinces you to help.*
 
 ##Begging##
 ^.*(does )?any[ -]?(one|body)( (in )?here)? (have|got) *(a|some)?( full)? rune *(armou?r *)?(se?t)?( for me( to (have|keep))?)?\?* *$
