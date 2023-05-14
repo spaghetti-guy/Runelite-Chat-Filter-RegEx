@@ -137,6 +137,8 @@ Need a Infernal Cape?
 ^.*y0tube -.*
 ^.*y0u?tube.*
 ^.*(inferno|service).*c0m.*
+^.*C *<> *M.*
+^.*tube.*\D{3,4}\d{3,4}
 
 ##Gambling##
 ^.*(imposter|warning)+:.*(play fakes|fake host)+.*
