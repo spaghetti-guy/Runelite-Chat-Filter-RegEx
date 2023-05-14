@@ -42,6 +42,9 @@ scammer on hacked account
 ^.*this scammer.*using a fake.*bot
 ^\[.+\] is manipulating you to.*
 ^\[.+\] convinces you to help.*
+^.*scammer:.*pretender.*
+^.*fake anti-scam story.*
+
 
 ##Begging##
 ^.*(does )?any[ -]?(one|body)( (in )?here)? (have|got) *(a|some)?( full)? rune *(armou?r *)?(se?t)?( for me( to (have|keep))?)?\?* *$
@@ -117,6 +120,7 @@ Need a Infernal Cape?
 ^.*(inferno|service).*c0m.*
 ^.*C *<> *M.*
 ^.*tube.*\D{3,4}\d{3,4}
+^.*rsmarket.*
 
 ##Gambling##
 ^.*(imposter|warning)+:.*(play fakes|fake host)+.*
@@ -131,7 +135,7 @@ roll of \(
 \| *5[45]x2 *\|
 join.+cc.+legit.+dicing
  has ((won|lost) slots|been paid).+\[\d\d:\d\d:\d\d\] *$
-over \d{3}.\d\db paid! * \|
+over \d{1,3}.\d\d(b|t) paid
 ^.*automated host \|
 ^.*runebet \(\)
 ubc bets.+win more
@@ -215,5 +219,10 @@ Hide your name from game
 ^.*this proves it'?s automated.*
 ^.*\[.*c.*r.*a.*w.*s.*\].*
 ^.*sad I got sniped on the other world.*
+^.*runebets.*
+^.*Automation \[.\].*
+^.*trade requirement ready.*
+^.*gamble now!.*
+^.*\(!V\)
 
 ##Unsorted##

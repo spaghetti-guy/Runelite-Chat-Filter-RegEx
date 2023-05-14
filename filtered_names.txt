@@ -1,3 +1,5 @@
 (coin|royal|vegas|veg|raise|gamble|rng|roll|trusted|frost|dice|host) .{3,4}
 .{3,4} (coin|royal|vegas|veg|raise|gamble|rng|roll|trusted|frost|dice|host).*
 Casino
+BET-
+BET .+
