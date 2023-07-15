@@ -16,6 +16,8 @@ This combines what I have found in a few Reddit posts as well as what I've perso
 (coin|royal|vegas|veg|raise|gamble|rng|roll|trusted|frost|dice|host) .{3,4}
 .{3,4} (coin|royal|vegas|veg|raise|gamble|rng|roll|trusted|frost|dice|host).*
 Casino
+BET-
+BET .+
 ```
 
 ### Filtered Regex
@@ -28,6 +30,7 @@ Casino
 ^.*(trump|biden) \d{2,5}.*
 ^.*just.*assume.*(my|his|her).*gender?.*
 ^.*identify as.*helicopter.*
+^.*discord.g+.*
 
 ##Swapping##
 ^.*fat swap.*
@@ -78,6 +81,8 @@ scammer on hacked account
 ^.*clean out your banks! *$
 ^.*first to give me \d+m.*
 ^.*can anyone donate \d*.*
+^.*someone (trade me|spare) \d+ *(m|k|b).*
+looking for genuine people.*
 
 ##Scams##
 ^.*spending 2147m.*
@@ -127,7 +132,7 @@ s *e *l *l *r *s *0 *7
 watch and win [a-z]{3,4}\d{3,4} ytbe *$
 you,_,tube to win n0w *$
 (win|give[ -]?away).+["']*[a-z]{3,4}\d{3,4}["']* [o0]n y[o0]u?,? ?tu?be *$
-infernoscape.+g
+^.*(l|i)nfernos*cape.+(g+|c(o|0)).*
 twitch.+giveaway.+drop part
 mainrentals
 raffles and giveaways
@@ -143,6 +148,7 @@ Need a Infernal Cape?
 ^.*C *<> *M.*
 ^.*tube.*\D{3,4}\d{3,4}
 ^.*rsmarket.*
+^.*runesh(o|0)p.*
 
 ##Gambling##
 ^.*(imposter|warning)+:.*(play fakes|fake host)+.*
@@ -177,7 +183,6 @@ rng \d{4,5} [0-2][0-9](:[0-5][0-9]){2} *$
 rolled a \[ \d{1,2} \] and 
  has (been paid the|traded) \[ \d{1,4}(\.\d+)? *[kmb](il+)? \]
  my m[iíl1]n[iíl1]m[uüú]m and max[iíl1]m[uüú]m is \[
-\| 55x2 dice \|
 \|\| huge payouts
 ^.*trade from .+: \d{1,4} *[kmb](il+)?
 \| rng \d{4,5} [0-2][0-9](:[0-5][0-9]){2} *$
@@ -246,5 +251,11 @@ Hide your name from game
 ^.*trade requirement ready.*
 ^.*gamble now!.*
 ^.*\(!V\)
+^.*5\dx2.*
+^.*play responsibly.*limits.*
+^.*id: *\d{3,}
+^.*<\d+:\d\d>.*
+^.*[("]coin fair[)"].*
+^.*» *available «.*
 
 ##Unsorted##
