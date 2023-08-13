@@ -30,7 +30,7 @@ BET .+
 ^.*(trump|biden) \d{2,5}.*
 ^.*just.*assume.*(my|his|her).*gender?.*
 ^.*identify as.*helicopter.*
-^.*discord.g+.*
+^.*discord.*(\.|,).*gg.*
 
 ##Swapping##
 ^.*fat swap.*
