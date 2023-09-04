@@ -125,6 +125,9 @@ Need a Infernal Cape?
 ^.*tube.*\D{3,4}\d{3,4}
 ^.*rsmarket.*
 ^.*runesh(o|0)p.*
+^.*o.*s.*r.*s.*g.*d.*c.*(o|0).*m.*
+^.*fast.*no id.*
+^.*accounts? for sale.*
 
 ##Gambling##
 ^.*(imposter|warning)+:.*(play fakes|fake host)+.*
